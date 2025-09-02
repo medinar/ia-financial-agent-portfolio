@@ -1,5 +1,5 @@
 {
-      "name": "Personal Insurance Agent Website",
+      "name": "personal-insurance-agent-website",
       "version": "0.1.0",
       "private": true,
       "dependencies": {
@@ -55,6 +55,7 @@
       },
       "scripts": {
             "dev": "vite",
-            "build": "node scripts/prebuild-crypto.js && vite build"
+            "build": "node scripts/prebuild-crypto.js && vite build",
+            "start": "next start"
       }
 }
