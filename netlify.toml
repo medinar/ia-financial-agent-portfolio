@@ -1,3 +1,6 @@
 [build]
-command = "npm run build"
+command = "yarn build"
 publish = "dist"            # Vite outputs to dist/
+
+[build.environment]
+NODE_VERSION = "22"    
