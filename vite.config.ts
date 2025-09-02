@@ -63,4 +63,8 @@
       port: 3000,
       open: true,
     },
+    // Optional: prevent duplicate React copies when using linked libs
+    optimizeDeps: {
+      include: ['react', 'react-dom'],
+    },    
   });
