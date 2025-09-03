@@ -36,7 +36,7 @@ export function Hero({ onNavigateToBooking }: HeroProps) {
           <Button 
             size="lg" 
             variant="outline"
-            className="border-white text-white hover:bg-white hover:text-blue-900 px-8 py-3 text-lg"
+            className="border-white bg-transparent text-white hover:bg-white hover:text-blue-900 px-8 py-3 text-lg"
             onClick={onNavigateToBooking}
           >
             Book Consultation

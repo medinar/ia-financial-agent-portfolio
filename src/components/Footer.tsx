@@ -98,6 +98,18 @@ export function Footer() {
           </div>
           <p>&copy; 2024 Sarah Mitchell - IA Financial Group. All rights reserved.</p>
         </div>
+        
+        <div className="flex justify-center items-center mt-4 pt-4 border-t border-gray-700">
+          <div className="flex items-center gap-2 text-xs text-gray-500">
+            <span>Powered by:</span>
+            <div className="flex items-center gap-2">
+              <div className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-2 py-1 rounded text-xs font-medium">
+                SF
+              </div>
+              <span className="text-gray-400 font-medium">SiteFoundry</span>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   );
